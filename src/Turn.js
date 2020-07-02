@@ -8,7 +8,7 @@ class Turn {
 
   returnCard = () => this.card;
 
-  evaluateGuess = () => this.guess === this.card.correctAnswer ? true : false;
+  evaluateGuess = () => this.guess === this.card.correctAnswer;
 
   giveFeedback = () => this.evaluateGuess() ? 'correct!' : 'incorrect!';
 }
