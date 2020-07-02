@@ -13,7 +13,6 @@ describe('Round', function() {
   const card3 = new Card(90, "What time of day is the best time for dreams", ["tomorrow", "all day", "sleeping"], "tomorrow");
 
   it('should be a function', () => {
-    const round = new Round();
     expect(Round).to.be.a('function');
   });
 
