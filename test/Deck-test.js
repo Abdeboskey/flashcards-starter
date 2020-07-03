@@ -8,7 +8,6 @@ const prototypeData = require('../src/data');
 describe('Deck', function() {
 
   it('should be a function', () => {
-    const deck = new Deck();
     expect(Deck).to.be.a('function');
   });
 
