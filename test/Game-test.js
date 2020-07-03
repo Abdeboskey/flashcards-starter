@@ -19,7 +19,7 @@ describe('Game', function() {
     expect(game.currentRound).to.equal(null);
   });
 
-  it('should have a new instance of round after the game has started', () => {
+  it.skip('should have a new instance of round after the game has started', () => {
     const game = new Game();
 
     game.start();
